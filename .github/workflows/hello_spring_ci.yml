@@ -14,8 +14,8 @@ jobs:
            - name: Setup JDK
              uses: actions/setup-java@v5
              with:
-                    distribution: 'termurin'
-                    java-version: '21' 
+                distribution: 'temurin'
+                java-version: '21' 
            
            - name: Build and test(Maven)
              working-directory: docker/app1-hello/springboot/hello-spring
